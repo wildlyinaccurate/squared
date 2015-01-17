@@ -1,11 +1,17 @@
+html,
 body {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  background-color: #ddd;
   margin: 0;
-  padding: 0;
+  padding: 20px;
 }
 
 .renderer-view {
-  display: block;
-  height: 100%;
-  position: absolute;
-  width: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
