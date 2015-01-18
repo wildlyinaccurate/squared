@@ -13,3 +13,8 @@
 ### Growth
 
  * If a tile is surrounded by 3 tiles belonging to a player, that tile will belong to that player
+
+## TODO
+
+ * Detect winning conditions
+ * Somewhere to write status ("make a move, yo!", "you win!")
