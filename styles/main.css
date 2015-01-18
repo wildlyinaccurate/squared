@@ -8,6 +8,7 @@ body {
   background-color: #ddd;
   margin: 0;
   padding: 20px;
+  text-align: center;
 }
 
 .renderer-view {
