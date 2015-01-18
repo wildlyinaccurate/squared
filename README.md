@@ -18,3 +18,5 @@
 
  * Detect winning conditions
  * Somewhere to write status ("make a move, yo!", "you win!")
+
+![](screenshot.png)
