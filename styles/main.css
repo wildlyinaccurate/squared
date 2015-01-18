@@ -11,6 +11,10 @@ body {
   text-align: center;
 }
 
+.renderer-container {
+  height: 100%;
+}
+
 .renderer-view {
   position: relative;
   top: 50%;
