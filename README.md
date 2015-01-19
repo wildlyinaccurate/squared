@@ -19,5 +19,6 @@
  * Detect winning conditions
  * Somewhere to write status ("make a move, yo!", "you win!")
  * Prevent stalemate
+ * I think tiles on the edges are being marked for expansion when one of the 'surrounding' tiles is on the opposite edge
 
 ![](screenshot.png)
