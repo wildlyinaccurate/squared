@@ -1,11 +1,14 @@
 {
   "jspm": {
-    "name": "squared",
     "dependencies": {
-      "javascript-state-machine": "npm:javascript-state-machine@^2.3.2",
+      "javascript-state-machine": "npm:javascript-state-machine@^2.3.5",
       "ndarray": "npm:ndarray@^1.0.16",
-      "pixi.js": "npm:pixi.js@^2.2.3",
-      "tinycolor2": "npm:tinycolor2@^1.1.1"
+      "pixi.js": "npm:pixi.js@^3.0.6",
+      "tinycolor2": "npm:tinycolor2@^1.1.2"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.90",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.90"
     }
   }
 }
