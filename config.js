@@ -4,7 +4,8 @@ System.config({
     "*": "*.js",
     "squared/*": "lib/*.js",
     "github:*": "jspm_packages/github/*.js",
-    "npm:*": "jspm_packages/npm/*.js"
+    "npm:*": "jspm_packages/npm/*.js",
+    "bower:*": "jspm_packages/bower/*.js"
   }
 });
 
@@ -13,9 +14,64 @@ System.config({
     "javascript-state-machine": "npm:javascript-state-machine@2.3.5",
     "ndarray": "npm:ndarray@1.0.18",
     "pixi.js": "npm:pixi.js@3.0.6",
+    "purescript-simple-dom": "bower:purescript-simple-dom@0.0.2",
     "tinycolor2": "npm:tinycolor2@1.1.2",
     "traceur": "github:jmcriffey/bower-traceur@0.0.88",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88",
+    "bower:purescript-arrays@0.3.7": {
+      "purescript-control": "bower:purescript-control@0.2.6",
+      "purescript-maybe": "bower:purescript-maybe@0.2.2"
+    },
+    "bower:purescript-either@0.1.8": {
+      "purescript-control": "bower:purescript-control@0.2.6"
+    },
+    "bower:purescript-foldable-traversable@0.3.1": {
+      "purescript-arrays": "bower:purescript-arrays@0.3.7",
+      "purescript-control": "bower:purescript-control@0.2.6",
+      "purescript-either": "bower:purescript-either@0.1.8",
+      "purescript-maybe": "bower:purescript-maybe@0.2.2",
+      "purescript-monoid": "bower:purescript-monoid@0.2.0",
+      "purescript-tuples": "bower:purescript-tuples@0.3.4"
+    },
+    "bower:purescript-maps@0.3.4": {
+      "purescript-arrays": "bower:purescript-arrays@0.3.7",
+      "purescript-foldable-traversable": "bower:purescript-foldable-traversable@0.3.1",
+      "purescript-math": "bower:purescript-math@0.1.1",
+      "purescript-maybe": "bower:purescript-maybe@0.2.2",
+      "purescript-strings": "bower:purescript-strings@0.4.5",
+      "purescript-tuples": "bower:purescript-tuples@0.3.4"
+    },
+    "bower:purescript-maybe@0.2.2": {
+      "purescript-control": "bower:purescript-control@0.2.6"
+    },
+    "bower:purescript-monoid@0.2.0": {
+      "purescript-arrays": "bower:purescript-arrays@0.3.7",
+      "purescript-maybe": "bower:purescript-maybe@0.2.2"
+    },
+    "bower:purescript-sets@0.3.2": {
+      "purescript-arrays": "bower:purescript-arrays@0.3.7",
+      "purescript-foldable-traversable": "bower:purescript-foldable-traversable@0.3.1",
+      "purescript-maps": "bower:purescript-maps@0.3.4",
+      "purescript-maybe": "bower:purescript-maybe@0.2.2",
+      "purescript-tuples": "bower:purescript-tuples@0.3.4"
+    },
+    "bower:purescript-simple-dom@0.0.2": {
+      "purescript-arrays": "bower:purescript-arrays@0.3.7",
+      "purescript-dom": "bower:purescript-dom@0.1.2",
+      "purescript-foldable-traversable": "bower:purescript-foldable-traversable@0.3.1",
+      "purescript-maybe": "bower:purescript-maybe@0.2.2",
+      "purescript-sets": "bower:purescript-sets@0.3.2",
+      "purescript-strings": "bower:purescript-strings@0.4.5",
+      "purescript-tuples": "bower:purescript-tuples@0.3.4"
+    },
+    "bower:purescript-strings@0.4.5": {
+      "purescript-maybe": "bower:purescript-maybe@0.2.2"
+    },
+    "bower:purescript-tuples@0.3.4": {
+      "purescript-arrays": "bower:purescript-arrays@0.3.7",
+      "purescript-control": "bower:purescript-control@0.2.6",
+      "purescript-monoid": "bower:purescript-monoid@0.2.0"
+    },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },

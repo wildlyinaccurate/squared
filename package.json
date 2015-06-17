@@ -4,6 +4,7 @@
       "javascript-state-machine": "npm:javascript-state-machine@^2.3.5",
       "ndarray": "npm:ndarray@^1.0.16",
       "pixi.js": "npm:pixi.js@^3.0.6",
+      "purescript-simple-dom": "bower:purescript-simple-dom@^0.0.2",
       "tinycolor2": "npm:tinycolor2@^1.1.2"
     },
     "devDependencies": {
